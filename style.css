@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(241, 123, 38);
+}
+.container{
+    background-color: white;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 20px;
+
+}
+.search-box{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#input-srh{
+    height: 32px;
+    width:75%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(241, 123, 38) ;
+    font-size: 17px;
+}
+#search-btn{
+    width: 75px;
+    height: 32px;
+    background-color: rgb(241, 123, 38);
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+}
